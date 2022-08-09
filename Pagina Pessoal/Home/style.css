@@ -1,0 +1,26 @@
+
+@charset'UTF-8';
+
+body{
+    background-color: #F2E9DC;
+}
+
+.contato{
+    text-align: right;
+    text-decoration: none;
+    marker: none;
+    list-style-type: none;
+    padding: 20px;
+}    
+
+footer {
+    display: flex ; 
+    justify-content: space-around;
+    padding: 30%;
+}
+
+.pic {
+    width: 150px;
+    height: 170px;
+
+}
