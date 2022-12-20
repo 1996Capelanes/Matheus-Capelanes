@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Oxygen:wght@300;400;700&display=swap');
+
+:root{
+    --verde-escuro: #172121ff;
+    --cinza-escuro: #444554ff;
+    --cinza-menosEscuros: #7f7b82ff;
+    --sombra-preto: #bfacb5ff;
+    --rose: #e5d0ccff;
+    --branco: #ffff;
+
+    --fonte-nome: 'La Belle Aurore';
+    --fonte-padrao: 'Oxygen';
+    
+}
+
+body{
+    background: var(--verde-escuro);
+    font-family: var(--fonte-padrao);
+    color: var(--branco);
+}
+
+.nome__logo{
+    font-family: var(--fonte-nome);
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.div__principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__perfil{
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+    border: 3px solid var(--rose);
+    border-radius: 50%;
+}
